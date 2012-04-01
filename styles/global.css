@@ -1,0 +1,110 @@
+*{
+ margin:0px; padding:0px
+}
+
+body{
+ width:80%;
+ background:#8E462B;
+  margin:0px auto;
+}
+
+#wrapper{
+ width:960px;
+ height:630px;
+ padding:7px;
+ background:rgba(255,255,255,0.7);
+ margin:0px auto;
+ margin-top:7px;
+ box-shadow:0px 0px 3px #000;
+}
+
+#page_wrapper{
+ width:960px;
+ height:100%;
+ background:#ccc url("../images/law_bg.jpg") no-repeat;
+ overflow:hidden;
+ position:relative;
+}
+
+a{
+text-decoration:none;
+
+}
+
+
+#page{
+ width:4800px;
+ height:100%;
+/* background:#ccc url("../images/law_bg.jpg");*/
+ position:absolute;
+}
+
+.navigation{
+ float:left;
+ display:block;
+ width:960px;
+ height:100%;
+
+
+}
+
+#footer_wrapper{
+ width:960px;
+ height:auto;
+ padding:7px;
+ overflow:auto;
+  margin:0px auto;
+   margin-top:7px;
+   
+}
+
+#site_creators{
+ width:960px;
+ height:auto;
+ font-size:0.8em;
+ margin:0px auto;
+color:#250A00;
+ font-family:Helvetica;
+}
+
+#mini_sitemaps{
+float:left;
+
+}
+
+#mini_governa{
+ float:right;
+ margin-top:-10px;
+}
+
+#mini_governa a{
+color:#250A00;
+}
+#mini_governa a:hover{
+color:#000;
+}
+
+.clear{
+clear:both;
+}
+
+@font-face{
+ font-family: "Orbitron"
+ src: url(".../fonts/orbitron-black.otf") format("opentype");
+}
+
+
+
+.round{
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+.shadow{
+box-shadow:0px 0px 5px #000;
+-moz-box-shadow:0px 0px 5px #000;
+-webkit-box-shadow:0px 0px 5px #000;
+}
+
+

@@ -1,0 +1,200 @@
+#top{
+
+height:130px;
+position:relative;
+}
+
+
+#middle{
+
+height:453px;
+}
+
+footer{
+
+height:27px;
+background: rgba(255,255,255,0.4);
+
+}
+
+
+#sitemap{
+ font-family:Helvetica;
+}
+
+#sitemap h4{
+color:#250A00;
+}
+
+#sitemap ul{
+font-size:0.9em;
+
+}
+
+#sitemap ul li a{
+color:#4F1600;
+}
+
+#sitemap ul li a:hover{
+color:#000;
+}
+
+
+
+#reach_us_button{
+ width:160px;
+ height:40px;
+ background:url("../images/reach.png") no-repeat;
+ background-position:top right;
+ float:right;
+ margin-right:100px;
+ padding-top:7px;
+ overflow:hidden;
+ border-top:1px solid #797979;
+}
+
+#reach_us_button a{
+ text-decoration:none;
+ margin-left:24px;
+ font-family:"Orbitron" , Helvetica,sans-serif;
+ color:#333;
+ font-size:1.3em;
+}
+
+#reach_us_button a:hover{
+color:#C45621;
+}
+
+#logo{
+ position:absolute;
+ bottom:7px;
+ left:20px;
+
+}
+
+
+
+#page_shaodw{
+background: url("../images/shadow.png");
+position:relative;
+top:-10px;
+width:970px;
+height:30px;
+margin:0px auto;
+}
+
+#business_intro{
+color:#fff;
+font-size:0.9em;
+width:370px;
+height:90px;
+font-family:Helvetica,sans-serif;
+float:right;
+
+}
+
+#business_intro p{
+text-shadow:0px 0px 3px #000;
+}
+#business_intro  p span{
+color:#FF9C20;
+}
+
+#menu{
+ width:250px;
+ height:215px;
+ margin-right:70px;
+ margin-top:60px;
+ background:#F8F8F8 url("../images/menu2.png");
+ border:1px solid #F8F8F8;
+ float:right;
+ overflow:hidden;
+}
+
+#menu ul{
+list-style:none;
+width:250px;
+
+}
+
+#menu ul li{
+width:100%;
+height:32px;
+background: url("../images/div.png") repeat-x;
+background-position:bottom;
+padding-top:12px;
+cursor:pointer;
+}
+
+
+
+#menu ul li a{
+font-family: Helvetica,sans-serif;
+font-size:1.3em;
+width:100%;
+height:31px;
+margin-left:10px;
+color:#777777;
+}
+
+#menu ul li a:hover{
+
+color:#b26846;
+}
+
+#menu ul li.active{
+color:#b26846;
+}
+
+#video_holder{
+float:left;
+margin-left:30px;
+}
+
+#video_holder iframe{
+ border:1px solid #F8F8F8;
+ background:#F8F8F8;
+ padding:4px;
+ 
+}
+
+#video_holder h4{
+ background:#fff;
+ width:150px;
+ height:23px;
+ background:rgba(255,255,255,0.7);
+ text-align:center;
+ padding-top:3px;
+ color:#222;
+}
+
+#video_holder div{
+margin-top:10px;
+margin-bottom:10px;
+ width:260px;
+ height:auto;
+ background: url("../images/modal.png");
+}
+
+#video_holder div a{
+margin-left:20px;
+color:#fff;
+text-decoration:underline;
+cursor:pointer;
+}
+
+
+
+#video_holder div p{
+ width:235px;
+ margin-left:20px;
+ padding-top:3px;
+ color:#fff;
+ font-size:0.9em;
+}
+
+
+#page_form{
+display:none;
+}
+

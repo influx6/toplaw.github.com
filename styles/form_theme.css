@@ -1,0 +1,111 @@
+
+.themable .textfield ,.themable .textarea ,.themable .select{
+outline:none;
+}
+
+.themable label{
+ color:#fff;
+ font-size:1.3em;
+ font-family: Helvetica,sans-serif;
+ font-style:bold;
+ margin-left:5px;
+}
+
+.themable div#textfield{
+  background:#000;
+  width:390px;
+  height:55px;
+  background: url("../images/formtheme.png");
+  background-position:0px 0px;
+}
+
+.themable div#textfield input{
+  width:340px;
+  height:37px;
+  background:none;
+  border:none;
+  color:#fff;
+  margin-left:13px;
+  margin-top:10px;
+}
+
+.themable div#textfield input:focus{
+  background:none;
+  border:none;
+  
+}
+
+
+.themable div#select_field{
+  background:#000;
+  width:300px;
+  height:55px;
+  background: url("../images/formtheme.png");
+  background-position:0px -70px;
+   font-family: Helvetica,sans-serif;
+}
+
+.themable div#select_field .select{
+  width:270px;
+  height:42px;
+  background:none;
+  border:none;
+  color:#170903;
+  margin-left:15px;
+  margin-top:10px;
+  font-size:1.1em;
+}
+
+ 
+.themable div#textarea{
+ font-family: Helvetica,sans-serif;
+  background:#000;
+  width:390px;
+  height:190px;
+  background: url("../images/formtheme.png");
+  background-position:0px -150px;
+  padding:3px;
+
+}
+
+.themable div#textarea .textarea{
+ font-family: Helvetica,sans-serif;
+  width:354px;
+  height:166px;
+  background:none;
+  border:none;
+  color:#fff;
+  margin-left:20px;
+  margin-top:10px;
+
+}
+
+.themable div#submit{
+  background:#000;
+  width:150px;
+  height:80px;
+  background: url("../images/formtheme.png");
+  background-position:0px -340px;
+  margin-left:250px;
+  margin-top:-7px;
+}
+
+.themable div#submit .submit{
+ font-family: Helvetica,sans-serif;
+  font-size:1.8em;
+  background:none;
+  border:none;
+  margin-top:25px;
+  margin-left:25px;
+  cursor:pointer;
+  color:#222;
+}
+
+.themable div#submit .submit:hover{
+  color:#fff; 
+}
+
+#space{
+ width:10px;
+ height:5px;
+}
